@@ -1,0 +1,47 @@
+#container #navbar h3{
+    border: 1px solid rgb(36, 36, 36);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.darkMode{
+    background-color: rgb(36, 36, 36);
+    color: whitesmoke;
+    transition: 0.85s;
+    
+}
+.ball{
+    margin-left: 22px;
+    transition: 0.85s;
+}
+#darkMode{
+    transition: 0.85s;
+}
+
+
+#outerBox{
+    border: 1px solid black;
+    height: 28px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+#ball{
+    width: 24px;
+    height: 24px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-top: 1px;
+
+    animation-name: lol;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition: 0.85s;
+}
+/* @keyframes lol{
+    from{margin-left: 0px;}
+    to{margin-left: 22px;}
+} */
+
